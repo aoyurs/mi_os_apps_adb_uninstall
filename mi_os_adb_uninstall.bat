@@ -25,7 +25,7 @@ adb uninstall --user 0 com.miui.miservice
 adb uninstall --user 0 com.miui.bugreport 
 ::小米广播 
 adb uninstall --user 0 com.android.cellbroadcastreceiver 
-::手机管家里的病毒扫描模块，会上传手机应用列表到腾讯服务器（反诈），无法关闭。推荐卸载，但卸载后无法进行病毒扫描
+::手机管家里的病毒扫描模块，会上传手机应用列表到腾讯服务器（反诈），无法关闭。卸载后问题记录：1、卸载后无法进行病毒扫描 2、usb调试，adb无法安装应用
 adb uninstall --user 0 com.miui.guardprovider 
 ::安全键盘
 adb uninstall --user 0 com.miui.securityinputmethod 
